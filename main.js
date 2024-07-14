@@ -1,10 +1,10 @@
-//base by DGXeon (Xeon Bot Inc.)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//base by LAKSHAN-MD (LAKSHAN Bot Inc.)
+//YouTube: @gaming_lakshanyt
+//Instagram: DUMINDU LAKSHAN
+//Telegram: t.me/Lakshanyt
+//GitHub: @LAKSHANYT
+//WhatsApp: +94742420362
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@gaming_lakshanyt
 
 require('./settings')
 const makeWASocket = require("@whiskeysockets/baileys").default
