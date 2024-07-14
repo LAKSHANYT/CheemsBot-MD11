@@ -1,19 +1,19 @@
 {
-    "name": "Cheems-Bot-MD",
+    "name": "LAKSHAN-MD",
     "version": "11.0.0",
-    "description": "Whatsapp Bot By DGXeon",
+    "description": "Whatsapp Bot By LAKSHAM-MD",
     "main": "index.js",
     "type": "commonjs",
     "directories": {
         "lib": "lib",
         "src": "src",
-        "media": "XeonMedia"
+        "media": "LakshanMedia"
     },
     "scripts": {
         "code": "node main.js",
         "start": "node index.js"
     },
-    "author": "DGXeon",
+    "author": "LAKSHAN-MD",
     "license": "MIT",
     "dependencies": {
         "@whiskeysockets/baileys": "^6.6.0",
