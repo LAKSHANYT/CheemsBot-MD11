@@ -1,6 +1,6 @@
 {
   "name": "LAKSHAN-MD",
-  "description": "whatsapp md bot build with nodejs",
+  "description": "WhatsApp MD bot built with Node.js",
   "repository": "https://github.com/LAKSHANYT/LAKSHAN-YT",
   "logo": "https://telegra.ph/file/859f831043eb8368b1372.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
@@ -14,5 +14,25 @@
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "The environment your application is running in",
+      "required": true,
+      "value": "production"
+    },
+    "PORT": {
+      "description": "Port where your app will listen",
+      "required": true,
+      "value": "8080"
+    },
+    "DATABASE_URL": {
+      "description": "URL for your database",
+      "required": true
+    },
+    "OTHER_ENV_VAR": {
+      "description": "Any other environment variable your app needs",
+      "required": false
+    }
+  }
 }
